@@ -1,0 +1,122 @@
+body, html{
+  margin: 0;
+  border: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-white{
+  background-color:rgb(151, 107, 107);
+  opacity: 0.8;
+  color: black;
+}
+
+.full{
+  height: 100vh;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.get-started-btn{
+  background-color: #1f3662;
+  color: white;
+}
+.get-started-btn:hover{
+  background-color: #ebf4fa;
+  color: #0c2241;
+}
+
+.nav-tab{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-style{
+  min-height: 6%;
+  background-color: #1b4589;
+}
+
+.home{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.book {
+  min-height: 200px;
+  border-radius: 5%;
+}
+
+.img-card{
+  border-radius: 5%;
+}
+
+.search-btn{
+  background-color: #1b4589;
+  color: white;
+  border: none;
+}
+
+.search-btn:hover{
+  background-color: #0c2241;
+  color: white;
+}
+
+.modal-body-align{
+  text-align: left;
+}
+
+.college-bg{
+  max-width: 100%;
+  max-height: 80vh;  
+}
+
+.img-container{
+  height: fit-content;
+  display: inline-block;
+  position: relative;
+  z-index: -5;
+  transform: translate(0, -15%);
+}
+
+.home-items{
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+
+.error{
+  border: 2px solid red;
+}
+
+.home-text{
+  font-size: 115%;
+}
+
+.view-books{
+  background-color: #eaf4fa;
+  width: 70%;
+  border-radius: 2%;
+  /* border: 2px solid red; */
+}
+
+.delete-btn{
+  background-color: #da3849;
+  color: white;
+}
+
+.delete-btn:hover{
+  color:white;
+}
