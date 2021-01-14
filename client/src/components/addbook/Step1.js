@@ -57,7 +57,7 @@ export default function Step1(props) {
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="">Phone</span>
                     </div>
-                    <input className='form-control' type='tel' name="phone" value={props.getState("phone", "")} onChange={props.handleChange} placeholder='462-236-2354'/>
+                    <input className='form-control' type='tel' name="phone" value={props.getState("phone", "")} onChange={props.handleChange} placeholder='4622362354'/>
                 </div>
             </p>
             <p>

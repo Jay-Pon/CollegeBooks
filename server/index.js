@@ -114,7 +114,6 @@ app.get('/getmybooks/:email', async (req, res) => {
     try {
         const {email} = req.params;
         const books = await pool.query("SELECT * FROM books_available WHERE email = $1", [email]);
-        console.log("BOOK", books);
         res.json(books.rows);
     } catch (error) {
         console.error(error.message);
